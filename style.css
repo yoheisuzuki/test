@@ -1,0 +1,17 @@
+.top{
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+body{
+}
+#main {
+margin: auto;
+width: 400px;
+}
+.mid{
+    background: black;
+    color: white;
+    opacity: 0.70;
+    }
+    

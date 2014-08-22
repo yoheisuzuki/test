@@ -1,0 +1,56 @@
+<!DOCTYPE html><meta charset="UTF-8">
+<meta name="viewport"
+    dontent="width=device-width, initial-scale=1, user-scalable=yes">
+<html>
+<head>
+    <title>
+        Seemore
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+img {
+    width:400px;
+}
+    </style>
+    </head>
+    
+<body>
+    <div id ="main">
+        <div class="top">See more</div>
+<SCRIPT language="JavaScript">
+    function koshin(){
+  location.reload();
+}
+// ランダムに画像を表示する
+    var img = new Array();
+    img[0] = "beer.jpg";
+    img[1] = "ferry.jpg";
+    img[2] = "mtrishiri.jpg";
+    img[3] = "kindai.jpg";
+    img[4] = "kindai-1.jpg";
+    img[5] = "curry.jpg";
+    img[6] = "dou.jpg";
+    img[7] = "tomoro.jpg";
+    img[8] = "kuma.jpg";
+n = Math.floor(Math.random()*img.length);
+document.write("<img src='"+img[n]+"' border='0'>");
+</SCRIPT>
+        <div class="mid"//ここのjavascript,whileを使用し画像を１０枚ランダム表示させる</div>
+        <div class="down"><div>
+            <section>
+                <button onclick="koshin()">
+                    またあとで。 // onclick 画像保存なし　次の写真を表示 
+                </button>
+                
+                    <button onclick="koshin()">
+                    行きたい♪//onclick 画像を保存 yesで関数にぶちこむ　次の写真を表示
+                </button>
+                
+                
+            </section>
+        </div>
+    </id>
+    
+</body>
+
+</html>
